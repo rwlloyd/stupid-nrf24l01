@@ -1,8 +1,6 @@
 # stupid-nRF24l01 Communication
 
-Add the ESP8266 libs
-
-http://arduino.esp8266.com/stable/package_esp8266com_index.json
+Simple repo for handling two way communications with nrf24l01 chips connected to, in the first instance, an arduino nano microcontroller
 
 Add RF24 library to Arduino IDE in the usual way
 
