@@ -10,9 +10,9 @@ rwlloyd, Lincoln, 04/2025
 #include <RF24.h>
 
 // Define NRF24L01 pins for Wemos D1 Mini
-#ifdef ESP8266
-#define CE_PIN D2
-#define CSN_PIN D8
+#ifdef ESP32
+#define CE_PIN 4
+#define CSN_PIN 5
 #else
 // Define NRF24L01 pins for Arduino Nano
 #define CE_PIN 9

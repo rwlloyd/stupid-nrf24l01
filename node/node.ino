@@ -1,7 +1,7 @@
 #include <SPI.h>
 #include <RF24.h>
 
-#define NODE_ID 0  // Set to 1 or 2
+#define NODE_ID 1  // Set to 1 or 2
 
 #define CE_PIN 9
 #define CSN_PIN 10
